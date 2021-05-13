@@ -1,0 +1,15 @@
+num=int(input("enter number ="))
+c,temp=0,num
+while num:
+    r=num%10
+    num=num//10
+    c+=1
+c=c-2
+if temp:
+    r=temp%10 
+    temp=temp//10
+    q=temp%pow(10,c)
+    i=temp//pow(10,c) 
+    print(r,end="")
+    print(q,end="")
+    print(i)
