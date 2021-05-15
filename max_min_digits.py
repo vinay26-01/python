@@ -1,0 +1,5 @@
+num=input("enter number")
+big=max(num)
+small=min(num)
+print("maximum digit =",big)
+print("minimum digit =",small)
