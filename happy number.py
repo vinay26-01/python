@@ -7,8 +7,9 @@ while n: #19
     n=n//10 #0
     i=i+pow(r,2) #8
     if n==0 and i>=10:
-        r=i%10
         n=i
-        i=0
     print(n)
+    i=0
+if i<10:
+     Print(i)
     
